@@ -1,0 +1,4 @@
+URL ==>  http://naturaldatabase.therapeuticresearch.com/
+INFO ==> Table for the Symptoms
+CLASS/ID ==> “cetable”
+
