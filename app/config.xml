@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ubiquitousspice.hackathonN2014" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HelloCordova</name>
+    <description>
+        A hackathon app made in November 2014 @ Fuse
+    </description>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
