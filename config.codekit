@@ -14,15 +14,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/www\/css\/index.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/www\/css\/index.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app\/www\/css\/ratchet.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -43,32 +34,12 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/www\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/www\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app\/www\/js\/functions.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/app\/www\/js\/functions.js",
 		"outputAbbreviatedPath": "\/app\/www\/js\/min\/functions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
-	"\/app\/www\/js\/index.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/app\/www\/js\/index.js",
-		"outputAbbreviatedPath": "\/app\/www\/js\/min\/index-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -96,23 +67,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/app\/www\/js\/sources\/min\/webmd-min.js": {
+	"\/app\/www\/js\/sources\/wikipedia.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/www\/js\/sources\/min\/webmd-min.js",
-		"outputAbbreviatedPath": "\/app\/www\/js\/sources\/min\/min\/webmd-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
-	"\/app\/www\/js\/sources\/webmd.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/app\/www\/js\/sources\/webmd.js",
-		"outputAbbreviatedPath": "\/app\/www\/js\/sources\/min\/webmd-min.js",
+		"inputAbbreviatedPath": "\/app\/www\/js\/sources\/wikipedia.js",
+		"outputAbbreviatedPath": "\/app\/www\/js\/sources\/min\/wikipedia-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
