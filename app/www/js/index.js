@@ -10,4 +10,5 @@ function doSearch() {
     $( '#debug .search' ).html( search );
 
     stuffWebMD( search );
+    stuffWikipedia( search );
 }
