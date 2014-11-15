@@ -6,6 +6,14 @@ $( '#search-container' ).submit( function( event ) {
     event.preventDefault();
 });
 
+$( '#zipcode-submit' ).click( function() {
+    $( '#doctors-container' ).submit();
+});
+$( '#doctors-container' ).submit( function( event ) {
+    viewDoctors();
+    event.preventDefault();
+});
+
 $( '.btn-negative' ).click( viewDoctors );
 $( '#btn-search' ).click( viewSearch );
 
@@ -18,13 +26,19 @@ function viewSearch() {
 }
 
 function viewDoctors() {
+    var zipcode = $( '#zipcode' ).val();
+
     $( '#view-search' ).hide();
     $( '#view-doctors' ).show();
     $( '#view-results' ).hide();
     $( '#navbar' ).show();
     $( 'body' ).removeClass( 'nice' );
 
-    $( '#navbar .title' ).html( 'Doctors' );
+    if( zipcode ) {
+        $( '#navbar .title' ).html( 'Doctors @ ' + zipcode );
+    } else {
+        $( '#navbar .title' ).html( 'Doctors' );
+    }
 }
 
 function viewResults() {
