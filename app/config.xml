@@ -7,4 +7,9 @@
     <content src="index.html" />
    	<access origin="*" />
   	<log level="DEBUG" />
+  	<preference name="Orientation" value="portrait" />
+  	<preference name="Fullscreen" value="true" />
+  	<preference name="StatusBarOverlaysWebView" value="false"/>
+	<preference name="StatusBarBackgroundColor" value="#ffcd34"/>
+	<preference name="StatusBarStyle" value="blacktranslucent" />
 </widget>

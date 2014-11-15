@@ -12,40 +12,44 @@
         <div id="app">
             <header id="navbar" class="bar bar-nav">
                 <button id="btn-search" class="btn btn-link btn-nav pull-left">
-                    <span class="icon icon-search"></span>
+                    <span class="icon icon-left-nav"></span>
                     Search
                 </button>
-                <h1 class="title">Title</h1>
+                <h1 class="title">Search: <em></em></h1>
             </header>
             <div id="view-search">
                 <form id="search-container" action="">
                     <h3>CheckYoSelf b4 you WreckYoSelf</h3>
                     <input id="search-bar" type="search" name="user-search" placeholder="CheckYoSelf" autocomplete="off" />
                     <div id="search-submit" class="btn btn-block">Search</div>
+                    <div id="find-doctors" class="btn btn-negative">Find Doctors near you</div>
                 </form>
+            </div>
+            <div id="view-doctors">
+                
             </div>
             <div id="view-results">
                 <div id="result-container">
                     <div id="result-webmd">
+                        <h3>WebMD</h3>
                         <p class="result-p"></p>
-                        <p><cite>from WebMD</cite>, <a class="result-a" target="_blank">more</a></p>
+                        <p><a class="result-a" target="_system">more...</a></p>
                     </div>
-                </div>
-                 <div id="result-healthline">
-                    <p class="result-p"></p>
-                </div>
-                 <div id="result-mayoclinic">
-                    <p class="result-p"></p>
+                    <div id="result-healthline">
+                        <h3>Healthline</h3>
+                        <p class="result-p"></p>
+                        <p><a class="result-a" target="_system">more...</a></p>
+                    </div>
+                    <div class="btn btn-negative btn-outlined">If your symptoms align with any mentioned it is highly recomended you go see a doctor. For a list of local doctors <em>click me</em></div>
                 </div>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/ratchet.min.js"></script>
-        <script type="text/javascript" src="js/functions.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/sources/webmd.js"></script>
         <script type="text/javascript" src="js/sources/healthline.js"></script>
         <script type="text/javascript" src="js/sources/mayoclinic.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

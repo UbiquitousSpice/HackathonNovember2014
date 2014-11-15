@@ -4,6 +4,10 @@ body.nice {
     background-color: #ffcd34;
 }
 
+*::-webkit-scrollbar { 
+    display: none; 
+}
+
 #navbar {
     letter-spacing: .1em;
 
@@ -25,6 +29,8 @@ h1 {
 
     height: 100%;
     margin: 0 4%;
+
+    overflow: scroll;
 }
 
 #search-container {
@@ -40,13 +46,9 @@ h1 {
     margin-bottom: 5%;
 }
 
-#search-container .btn {
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 #search-container h3 {
+    line-height: 1.5em;
+
     text-align: center;
 
     color: white !important;
@@ -54,9 +56,37 @@ h1 {
 }
 
 #search-bar {
-    padding: 5% 3%;
+    padding: 10% 13%;
+}
+
+#search-submit {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#find-doctors {
+    display: block;
+    width: 60%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #result-container {
     margin-top: 59px;
+    padding-bottom: 20px;
+}
+
+#result-container > div {
+    margin-bottom: 55px;
+}
+
+.result-p h3 {
+    font-size: 13pt;
+}
+
+.btn {
+    white-space: normal !important;
+    line-height: 1.5em;
 }

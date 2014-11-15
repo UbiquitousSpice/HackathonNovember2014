@@ -1,4 +1,4 @@
-function stuffWebMD( search ) {
+function sourceWebMD( search ) {
     $( '#result-webmd' ).hide();
     searchURL = 'http://www.webmd.com/search/search_results/default.aspx?query=' + encodeURI( search );
     $.ajax({
@@ -11,10 +11,8 @@ function stuffWebMD( search ) {
                 url: searchResult,
                 success: function( result ) {
                     result = $( result );
-                    relevantInfo = result.find( '#mainContent_area p' ).html();
-                    if( relevantInfo != null && relevantInfo.length < 100 ) {
-                        relevantInfo = null;
-                    }
+                    relevantInfo = result.find( '#mainContent_area p' );
+                    relevantInfo = filterInfo( relevantInfo );
                     if( relevantInfo == null ) {
                         $( '#result-webmd' ).hide();
                     } else {
