@@ -33,3 +33,6 @@ CLASS/ID ==> “cetable”
 URL ==> http://naturaldatabase.therapeuticresearch.com/home.aspx?cs=&s=ND&AspxAutoDetectCookieSupport=1
 INFO ==> Table for the list of illnesses
 CLASS/ID ==> “paneltbl”
+
+
+https://www.itriagehealth.com/conditions/contusion-bruise-191  ((USE THIS CALEB))
