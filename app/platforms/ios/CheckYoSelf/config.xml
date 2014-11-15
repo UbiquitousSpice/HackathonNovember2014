@@ -19,10 +19,13 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
     <name>CheckYoSelf</name>
     <description>
-        A hackathon app made in November 2014 @ Fuse
-    </description>
+		A hackathon app made in November 2014 @ Fuse
+	</description>
     <content src="index.html" />
     <access origin="*" />
     <log level="DEBUG" />

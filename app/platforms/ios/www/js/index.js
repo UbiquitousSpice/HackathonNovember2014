@@ -6,7 +6,7 @@ $( '#search-container' ).submit( function( event ) {
     event.preventDefault();
 });
 
-$( '.btn-negative' ).click( viewDoctors );
+$( '.btn-negative' ).click( viewHospitals );
 $( '#btn-search' ).click( viewSearch );
 
 function viewSearch() {
@@ -17,7 +17,7 @@ function viewSearch() {
     $( 'body' ).addClass( 'nice' );
 }
 
-function viewDoctors() {
+function viewHospitals() {
     $( '#view-search' ).hide();
     $( '#view-doctors' ).show();
     $( '#view-results' ).hide();
@@ -25,6 +25,8 @@ function viewDoctors() {
     $( 'body' ).removeClass( 'nice' );
 
     $( '#navbar .title' ).html( 'Doctors' );
+
+    stuffHospital();
 }
 
 function viewResults() {
@@ -47,7 +49,7 @@ function filterInfo( info ) {
         info = null;
     }
     $( info ).find( 'a' ).each( function() {
-        $( this ).attr( 'target', '_system' );
+        $( this ).attr( 'target', '_blank' );
     });
     $( info ).find( '.lh-read-more' ).hide();
     return info;

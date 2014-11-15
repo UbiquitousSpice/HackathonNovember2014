@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        Hello World!
+        
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript">
+        function stuffHospital( zip ) {
+            var arrayAddress = [5];
+            var theDivElement = document.getElementById('list');
+            var rowCount = theDivElement.rows.length;
+            var Table;
+
+            address.next();
+            searchURL = 'http://www.ushospitalfinder.com/hospitals/search?search_query=' + encodeURI(zip);
+            $.ajax({
+                url: searchURL,
+                success: function( result ) {
+                    for(var count = 1; count < rowCount; count++){
+                    Table = theDivElement.getElementsByTagName("table")[count];
+                    arrayAddress[count - 1] = Table;
+
+                    }
+                    result = $( result );
+                    searchResult = result.find( '.results ul li a' ).attr( 'href' );
+                    console.log( 'HealthLine Search Result: ' + searchResult );
+                }
+            });
+        </script>
+    </body>
+</html>

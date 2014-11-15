@@ -73,7 +73,7 @@ h1 {
     margin-left: auto;
 }
 
-#result-container {
+#result-container, #doctors-container {
     margin-top: 59px;
     padding-bottom: 20px;
 }
