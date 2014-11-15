@@ -25,6 +25,8 @@ function viewDoctors() {
     $( 'body' ).removeClass( 'nice' );
 
     $( '#navbar .title' ).html( 'Doctors' );
+    
+    stuffHospital( 44685 );
 }
 
 function viewResults() {
