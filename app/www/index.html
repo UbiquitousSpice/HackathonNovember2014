@@ -9,10 +9,14 @@
         <title>ListIt</title>
     </head>
     <body>
-        <div id="debug">
-            <div>Search: <span class="search">???</span></div>
-        </div>
         <div id="app">
+            <header id="navbar" class="bar bar-nav">
+                <button id="btn-search" class="btn btn-link btn-nav pull-left">
+                    <span class="icon icon-search"></span>
+                    Search
+                </button>
+                <h1 class="title">Title</h1>
+            </header>
             <div id="view-search">
                 <form id="search-container" action="">
                     <input id="search-bar" type="search" name="user-search" placeholder="What might ail you today?" autocomplete="off" />
@@ -20,8 +24,10 @@
                 </form>
             </div>
             <div id="view-results">
-                <div id="result-webmd">
-                    <p class="result-p"></p>
+                <div id="result-container">
+                    <div id="result-webmd">
+                        <p class="result-p"></p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -109,8 +109,8 @@
 		},
 	"\/app\/www\/js\/sources\/webmd.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/app\/www\/js\/sources\/webmd.js",
 		"outputAbbreviatedPath": "\/app\/www\/js\/sources\/min\/webmd-min.js",
 		"outputPathIsOutsideProject": 0,
