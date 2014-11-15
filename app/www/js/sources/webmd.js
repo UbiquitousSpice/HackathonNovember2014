@@ -1,4 +1,5 @@
 function stuffWebMD( search ) {
+    $( '#result-webmd' ).hide();
     searchURL = 'http://www.webmd.com/search/search_results/default.aspx?query=' + encodeURI( search );
     $.ajax({
         url: searchURL,
@@ -10,12 +11,16 @@ function stuffWebMD( search ) {
                 url: searchResult,
                 success: function( result ) {
                     result = $( result );
-                    relevantInfo = result.find( '#mainContentContainer_area p' ).html();
+                    relevantInfo = result.find( '#mainContent_area p' ).html();
+                    if( relevantInfo != null && relevantInfo.length < 100 ) {
+                        relevantInfo = null;
+                    }
                     if( relevantInfo == null ) {
                         $( '#result-webmd' ).hide();
                     } else {
                         $( '#result-webmd' ).show();
                         $( '#result-webmd .result-p' ).html( relevantInfo );
+                        $( '#result-webmd .result-a' ).attr( 'href', searchResult );
                     }
                 },
             });

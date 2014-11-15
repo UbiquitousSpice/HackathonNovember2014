@@ -6,22 +6,31 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>ListIt</title>
+        <title>CheckYoSelf</title>
     </head>
-    <body>
-        <div id="debug">
-            <div>Search: <span class="search">???</span></div>
-        </div>
+    <body class="nice">
         <div id="app">
+            <header id="navbar" class="bar bar-nav">
+                <button id="btn-search" class="btn btn-link btn-nav pull-left">
+                    <span class="icon icon-search"></span>
+                    Search
+                </button>
+                <h1 class="title">Title</h1>
+            </header>
             <div id="view-search">
                 <form id="search-container" action="">
-                    <input id="search-bar" type="search" name="user-search" placeholder="What might ail you today?" autocomplete="off" />
+                    <h1 id="app-title">CheckYoSelf!</h1>
+                    <input id="search-bar" type="search" name="user-search" placeholder="CheckYoSelf!" autocomplete="off" />
                     <div id="search-submit" class="btn btn-block">Search</div>
+                    <p>CheckYoSelf b4 you WreckYoSelf! (both trademarked)</p>
                 </form>
             </div>
             <div id="view-results">
-                <div id="result-webmd">
-                    <p class="result-p"></p>
+                <div id="result-container">
+                    <div id="result-webmd">
+                        <p class="result-p"></p>
+                        <p><cite>from WebMD</cite>, <a class="result-a">more</a></p>
+                    </div>
                 </div>
                  <div id="result-healthline">
                     <p class="result-p"></p>
@@ -33,6 +42,7 @@
         <script type="text/javascript" src="js/ratchet.min.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+                <script type="text/javascript" src="js/wikipedia.js"></script>
         <script type="text/javascript" src="js/sources/webmd.js"></script>
         <script type="text/javascript" src="js/sources/healthline.js"></script>
     </body>
