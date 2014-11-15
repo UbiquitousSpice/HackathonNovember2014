@@ -15,6 +15,7 @@ function viewSearch() {
     $( '#view-results' ).hide();
     $( '#navbar' ).hide();
     $( 'body' ).addClass( 'nice' );
+    $( '#easter-egg' ).hide();
 }
 
 function viewHospitals() {
@@ -37,11 +38,16 @@ function viewResults() {
     $( '#view-results' ).show();
     $( '#navbar' ).show();
     $( 'body' ).removeClass( 'nice' );
+    $( '#easter-egg' ).hide();
 
     $( '#navbar .title' ).html( 'Search: <em>' + search + '</em>' );
 
     sourceWebMD( search );
     sourceHealthLine( search );
+
+    if( search == 'hackathon' ) {
+        $( '#easter-egg' ).show();
+    }
 }
 
 function filterInfo( info ) {
