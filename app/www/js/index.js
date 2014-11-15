@@ -1,3 +1,6 @@
+function grabList(){
+    
+}
 $( '#search-submit' ).click( doSearch );
 $( '#search-container' ).submit( function( event ) {
     doSearch();
@@ -10,4 +13,5 @@ function doSearch() {
     $( '#debug .search' ).html( search );
 
     stuffWebMD( search );
+    stuffHealthLine( search );
 }

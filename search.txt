@@ -1,7 +1,6 @@
-URL ==>  http://naturaldatabase.therapeuticresearch.com/
-INFO ==> Table for the Symptoms
-CLASS/ID ==> “cetable”
 
+
+<<<<<<< Updated upstream
 http://www.localhealth.com/article/arthritis?t=1b8948d0-c57d-11df-867c-12313b0204f1
 INFO==> disease info
 CLASS/ID==> class=“article hga”
@@ -18,3 +17,19 @@ www.healthline.com
 INFO==> content
 CLASS/ID ==> class=“content_body” id=“T0C_TITLE_1”
 
+
+URL ==>  http://naturaldatabase.therapeuticresearch.com/
+INFO ==> Table for the Symptoms
+CLASS/ID ==> “cetable”
+
+URL ==>  http://naturaldatabase.therapeuticresearch.com/
+INFO ==> Table for the Cures/Medication
+CLASS/ID ==> “cetable”
+
+URL ==>  http://naturaldatabase.therapeuticresearch.com/
+INFO ==> Table for the Cures/Medication
+CLASS/ID ==> “cetable”
+
+URL ==> http://naturaldatabase.therapeuticresearch.com/home.aspx?cs=&s=ND&AspxAutoDetectCookieSupport=1
+INFO ==> Table for the list of illnesses
+CLASS/ID ==> “paneltbl”
