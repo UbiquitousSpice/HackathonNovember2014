@@ -5,5 +5,6 @@
         A hackathon app made in November 2014 @ Fuse
     </description>
     <content src="index.html" />
-    <access origin="*" />
+   	<access origin="*" />
+  	<log level="DEBUG" />
 </widget>

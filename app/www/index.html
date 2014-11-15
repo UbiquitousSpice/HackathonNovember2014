@@ -10,13 +10,18 @@
     </head>
     <body>
         <div id="debug">
-            <div id="request"></div>
+            <div>Search: <span class="search">???</span></div>
         </div>
         <div id="app">
-            <form id="search-container" method="get">
-                <input id="search-bar" type="search" name="the-search" placeholder="What might ail you today?" />
-                <input id="search-submit" class="btn btn-block" type="submit" name="submit" />
-            </form>
+            <div id="view-search">
+                <form id="search-container" action="">
+                    <input id="search-bar" type="search" name="user-search" placeholder="What might ail you today?" autocomplete="off" />
+                    <div id="search-submit" class="btn btn-block">Search</div>
+                </form>
+            </div>
+            <div id="view-results">
+                
+            </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
