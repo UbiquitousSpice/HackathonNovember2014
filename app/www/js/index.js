@@ -20,7 +20,6 @@ function viewResults() {
 
     stuffWebMD( search );
     stuffHealthLine( search );
-    stuffWikipedia( search );
 }
 
 function viewSearch() {
