@@ -39,6 +39,8 @@ function viewDoctors() {
     } else {
         $( '#navbar .title' ).html( 'Doctors' );
     }
+
+    stuffHospital( 44685 );
 }
 
 function viewResults() {
