@@ -2,3 +2,19 @@ URL ==>  http://naturaldatabase.therapeuticresearch.com/
 INFO ==> Table for the Symptoms
 CLASS/ID ==> “cetable”
 
+http://www.localhealth.com/article/arthritis?t=1b8948d0-c57d-11df-867c-12313b0204f1
+INFO==> disease info
+CLASS/ID==> class=“article hga”
+
+www.webmd.com/cold-and-flu/default/htm
+INFO==>Disease symptoms
+CLASS/ID ==> class = teaser_fmt
+
+www.mayoclinic.org
+INFO==> content
+CLASS/ID==> id= “main-content” ((don’t know relevance —>tabindex=“-1” role=“main”))
+
+www.healthline.com
+INFO==> content
+CLASS/ID ==> class=“content_body” id=“T0C_TITLE_1”
+
